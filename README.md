@@ -11,7 +11,7 @@ The final result will make possible to access a web site in your own PC so that 
 Read the links in the acknowlegements section bellow to get an idea about mkcert.
 
 You can get an idea of how https certificates work with this tutorial:
-![HTTPS Tutorial](/docs/DPL-2012-2013-doc10-UT-2-https.pdf)
+[PDF](/docs/DPL-2012-2013-doc10-UT-2-https.pdf)
 
 ## Prerequisites
 
@@ -61,6 +61,8 @@ Now create a new certificate signed with your CA valid for the domain "localhost
 Move the 2 files created to server/.cert:
 
 ![Creating Site Certificate](/screenshots/screenshot-8.png)
+
+In this last screenshot above you can see where the created cert files are used in `server/server.js`.
 
 Now it's time to Build the project.
 
