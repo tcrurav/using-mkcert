@@ -11,7 +11,7 @@ The final result will make possible to access a web site in your own PC so that 
 Read the links in the acknowlegements section bellow to get an idea about mkcert.
 
 You can get an idea of how https certificates work with this tutorial:
-[PDF](/docs/DPL-2012-2013-doc10-UT-2-https.pdf)
+[Secure Web Site using certificates](/docs/DPL-2012-2013-doc10-UT-2-https.pdf)
 
 ## Prerequisites
 
