@@ -6,14 +6,6 @@ The final result will make possible to access a web site in your own PC so that 
 
 ![Before log in](/screenshots/screenshot-7.png)
 
-In the following screenshot you can see that user tiburcio has 3 requests, and juan 2 requests.
-
-![Before log in](/screenshots/screenshot-2.png)
-
-In the following screenshot you can see that user tiburcio clicked on `help next` because finished helping pepe and now tiburcio has 2 requests left.
-
-![Before log in](/screenshots/screenshot-3.png)
-
 ## Getting Started
 
 Read the links in the acknowlegements section bellow to get an idea about mkcert.
@@ -56,19 +48,19 @@ Install chocolatey using the instructions in the following page: https://chocola
 
 Now open Visual Studio Code with administrative rights and create the Certificate Authority (CA):
 
-![Creating CA](/screenshots/screenshot-2.jpg)
+![Creating CA](/screenshots/screenshot-2.png)
 
 In your certificate manager you can see your created CA:
 
-![checking CA](/screenshots/screenshot-4.jpg)
+![checking CA](/screenshots/screenshot-4.png)
 
-Now it's time to create a certificate for your web site in localhost:
+Now create a new certificate signed with your CA valid for the domain "localhost".
 
-![Creating Site Certificate](/screenshots/screenshot-3.jpg)
+![Creating Site Certificate](/screenshots/screenshot-3.png)
 
 Move the 2 files created to server/.cert:
 
-![Creating Site Certificate](/screenshots/screenshot-8.jpg)
+![Creating Site Certificate](/screenshots/screenshot-8.png)
 
 Now it's time to Build the project.
 
@@ -77,7 +69,7 @@ cd bicycles-cert
 npm run build
 ```
 
-Now you can see a new folder called ```build```.
+Now you can see a new folder called `build`.
 
 Run your project:
 
@@ -101,6 +93,6 @@ Enjoy!!!
 
 ## Acknowledgments
 
-* Thank you to my student Kevin (https://github.com/KRodVal) who has told me about mkcert.
+* Thank you to my student <strong>Kevin</strong> (https://github.com/KRodVal) who has told me about mkcert and given the first instructions to start with it.
 * https://github.com/FiloSottile/mkcert. mkcert is a simple tool for making locally-trusted development certificates. It requires no configuration.
 * https://gist.github.com/PurpleBooth/109311bb0361f32d87a2. A very complete template for README.md files.
