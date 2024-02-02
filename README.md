@@ -44,7 +44,14 @@ cd bicycles-cert
 npm install
 ```
 
-Install chocolatey using the instructions in the following page: https://chocolatey.org/install
+To install mkcert you can use chocolatey for instance. (read mkcert project for other options: https://github.com/FiloSottile/mkcert). 
+
+In case you use chocolatey install it using the instructions in the following page: https://chocolatey.org/install
+
+Install mkcert (if using chocolatey)
+````
+choco install mkcert
+````
 
 Now open Visual Studio Code with administrative rights and create the Certificate Authority (CA):
 
